@@ -16,6 +16,8 @@ function Transactions() {
 
   const [code, setCode] = useState();
 
+  const [loading, setLoading] = useState(true);
+
   const MainName = useSelector((state) => state.ProductData.MainName);
   console.log("the cart is =", MainName);
   const MainAddress = useSelector((state) => state.ProductData.MainAddress);
@@ -38,6 +40,7 @@ function Transactions() {
 
     Axios.get("https://shop-commerce.herokuapp.com/getUsers").then((response) => {
       setListOfUser(response.data.reverse());
+      setLoading(false);
     });
   }, []);
 
@@ -104,9 +107,13 @@ function Transactions() {
         />
         <button onClick={() => handleSearch()}>Search</button>
       </div>
-
+      <div className="container-fluid">
+      {loading ? <h4>Loading...</h4> : "" }
+      </div>
+      
       <table class="table table-striped">
         <tbody>
+        
           {listOfUser.map((cur) => (
             <tr>
               <td>
