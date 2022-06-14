@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f3d80885.css",
+    "main.js": "/static/js/main.76d83f4c.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/product-8.png": "/static/media/product-8.ab80bb7c302a7a5758f0.png",
+    "static/media/product-3.png": "/static/media/product-3.be78b996af1ec912efa9.png",
+    "static/media/product-1.png": "/static/media/product-1.dc95857d2d9bda29209c.png",
+    "static/media/product-4.png": "/static/media/product-4.41644bf5ef6f6c4fde2a.png",
+    "static/media/product-5.png": "/static/media/product-5.d20c3f0fe3eb3321bc7b.png",
+    "static/media/product-6.png": "/static/media/product-6.0c81efa9eb7483b1ec50.png",
+    "static/media/product-2.png": "/static/media/product-2.fb642d4a4ca172d7f065.png",
+    "static/media/product-7.png": "/static/media/product-7.2dfe8ff5d17aca8d9202.png",
+    "static/media/logo.svg": "/static/media/logo.393df3f4cb4f91b7f8f821dd684dba53.svg",
+    "index.html": "/index.html",
+    "static/media/navbar.css.map": "/static/media/navbar.css.ac863d9a6e873feadf29.map",
+    "static/media/product.css.map": "/static/media/product.css.072a9bb11556ecae2a51.map",
+    "main.f3d80885.css.map": "/static/css/main.f3d80885.css.map",
+    "main.76d83f4c.js.map": "/static/js/main.76d83f4c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3d80885.css",
+    "static/js/main.76d83f4c.js"
+  ]
+}
