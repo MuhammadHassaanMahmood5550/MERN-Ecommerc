@@ -1,0 +1,19 @@
+
+.parent{
+    overflow: hidden;
+   
+    .img-btn{
+        display: flex;
+        align-self: end;
+        font-size: 18px;
+        position: relative;
+        left: 17%;
+        transition: all .6s;
+    }
+
+    &:hover{
+        .img-btn{
+            left: 0%;
+        }
+    }
+}

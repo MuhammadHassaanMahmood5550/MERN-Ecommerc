@@ -1,0 +1,21 @@
+.parent {
+  overflow: hidden;
+}
+
+.parent .img-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: end;
+      align-self: end;
+  font-size: 18px;
+  position: relative;
+  left: 17%;
+  -webkit-transition: all .6s;
+  transition: all .6s;
+}
+
+.parent:hover .img-btn {
+  left: 0%;
+}
+/*# sourceMappingURL=product.css.map */

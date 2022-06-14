@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  font-family: 'Lobster', cursive !important;
+  background-color: whitesmoke !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.row p {
+  color: green;
+}
+
+.row h1 {
+  color: blueviolet;
+}
+
+.disabled {
+  cursor: no-drop !important;
+}
+/*# sourceMappingURL=index.css.map */
