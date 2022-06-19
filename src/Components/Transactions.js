@@ -26,15 +26,14 @@ function Transactions() {
   console.log("the cart is =", MainTotal);
   //createUser();
 
+  
   const dispatch = useDispatch();
 
   useEffect(() => {
     //as it will return proxise so .then
     if (MainAddress) {
       createUser();
-      console.log(
-        "seeeeeeeeeeeeeeeeeeeeeeeeee==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-"
-      );
+     
       clearOrder();
     }
 
@@ -120,7 +119,7 @@ function Transactions() {
                 <div className="users container-fluid">
                   <h1>Name: {cur.name}</h1>
                   <h1>Amount: {cur.age}</h1>
-                  <h1>Address: {cur.username}</h1>
+                  <h1>Address/Products: {cur.username}</h1>
                   {code == 7777 ? 
                   <div className="">
                   <input
